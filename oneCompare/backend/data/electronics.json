@@ -1,0 +1,326 @@
+[
+  {
+    "id": "iphone-15-128",
+    "name": "Apple iPhone 15 128GB",
+    "imageUrl": "https://via.placeholder.com/400x300?text=iPhone+15",
+    "specifications": {
+      "brand": "Apple",
+      "display": "6.1-inch Super Retina XDR",
+      "processor": "A16 Bionic",
+      "storage": "128GB",
+      "camera": "48MP main camera",
+      "battery": "Up to 20 hours video playback"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 68999,
+        "originalPrice": 79900,
+        "delivery": "Free delivery by tomorrow",
+        "rating": 4.6
+      },
+      {
+        "platform": "Flipkart",
+        "price": 67999,
+        "originalPrice": 79900,
+        "delivery": "Delivery in 2 days",
+        "rating": 4.5
+      },
+      {
+        "platform": "Croma",
+        "price": 69990,
+        "originalPrice": 79900,
+        "delivery": "Store pickup available today",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "samsung-s24-256",
+    "name": "Samsung Galaxy S24 5G 256GB",
+    "imageUrl": "https://via.placeholder.com/400x300?text=Galaxy+S24",
+    "specifications": {
+      "brand": "Samsung",
+      "display": "6.2-inch Dynamic AMOLED 2X",
+      "processor": "Exynos 2400",
+      "storage": "256GB",
+      "camera": "50MP triple camera",
+      "battery": "4000mAh"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 74999,
+        "originalPrice": 89999,
+        "delivery": "Free delivery in 1 day",
+        "rating": 4.4
+      },
+      {
+        "platform": "Flipkart",
+        "price": 73999,
+        "originalPrice": 89999,
+        "delivery": "Delivery by tomorrow",
+        "rating": 4.3
+      },
+      {
+        "platform": "Croma",
+        "price": 75990,
+        "originalPrice": 89999,
+        "delivery": "Store pickup available",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "oneplus-12-256",
+    "name": "OnePlus 12 5G 256GB",
+    "imageUrl": "https://via.placeholder.com/400x300?text=OnePlus+12",
+    "specifications": {
+      "brand": "OnePlus",
+      "display": "6.82-inch QHD+ AMOLED",
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "256GB",
+      "camera": "50MP Hasselblad camera",
+      "battery": "5400mAh with 100W charging"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 64999,
+        "originalPrice": 69999,
+        "delivery": "Free delivery by tomorrow",
+        "rating": 4.5
+      },
+      {
+        "platform": "Flipkart",
+        "price": 65999,
+        "originalPrice": 69999,
+        "delivery": "Delivery in 2 days",
+        "rating": 4.3
+      },
+      {
+        "platform": "Croma",
+        "price": 66990,
+        "originalPrice": 69999,
+        "delivery": "Store pickup in 2 hours",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "macbook-air-m3-13",
+    "name": "Apple MacBook Air 13-inch M3",
+    "imageUrl": "https://via.placeholder.com/400x300?text=MacBook+Air+M3",
+    "specifications": {
+      "brand": "Apple",
+      "display": "13.6-inch Liquid Retina",
+      "processor": "Apple M3",
+      "memory": "8GB unified memory",
+      "storage": "256GB SSD",
+      "battery": "Up to 18 hours"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 104990,
+        "originalPrice": 114900,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.7
+      },
+      {
+        "platform": "Flipkart",
+        "price": 103990,
+        "originalPrice": 114900,
+        "delivery": "Delivery by tomorrow",
+        "rating": 4.6
+      },
+      {
+        "platform": "Croma",
+        "price": 106900,
+        "originalPrice": 114900,
+        "delivery": "Store pickup available",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": "dell-xps-13",
+    "name": "Dell XPS 13 Intel Core Ultra 7",
+    "imageUrl": "https://via.placeholder.com/400x300?text=Dell+XPS+13",
+    "specifications": {
+      "brand": "Dell",
+      "display": "13.4-inch FHD+",
+      "processor": "Intel Core Ultra 7",
+      "memory": "16GB LPDDR5x",
+      "storage": "512GB SSD",
+      "weight": "1.19kg"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 129990,
+        "originalPrice": 149990,
+        "delivery": "Free delivery in 3 days",
+        "rating": 4.2
+      },
+      {
+        "platform": "Flipkart",
+        "price": 127990,
+        "originalPrice": 149990,
+        "delivery": "Delivery in 4 days",
+        "rating": 4.1
+      },
+      {
+        "platform": "Croma",
+        "price": 131500,
+        "originalPrice": 149990,
+        "delivery": "Store pickup available",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": "sony-wh1000xm5",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "imageUrl": "https://via.placeholder.com/400x300?text=Sony+WH-1000XM5",
+    "specifications": {
+      "brand": "Sony",
+      "type": "Over-ear wireless headphones",
+      "noiseCancellation": "Active noise cancellation",
+      "battery": "Up to 30 hours",
+      "charging": "USB-C quick charge",
+      "weight": "250g"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 26990,
+        "originalPrice": 34990,
+        "delivery": "Free delivery by tomorrow",
+        "rating": 4.6
+      },
+      {
+        "platform": "Flipkart",
+        "price": 27499,
+        "originalPrice": 34990,
+        "delivery": "Delivery in 2 days",
+        "rating": 4.5
+      },
+      {
+        "platform": "Croma",
+        "price": 27990,
+        "originalPrice": 34990,
+        "delivery": "Store pickup today",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": "ipad-air-m2-128",
+    "name": "Apple iPad Air 11-inch M2 128GB",
+    "imageUrl": "https://via.placeholder.com/400x300?text=iPad+Air+M2",
+    "specifications": {
+      "brand": "Apple",
+      "display": "11-inch Liquid Retina",
+      "processor": "Apple M2",
+      "storage": "128GB",
+      "camera": "12MP landscape front camera",
+      "connectivity": "Wi-Fi 6E"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 57999,
+        "originalPrice": 59900,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.5
+      },
+      {
+        "platform": "Flipkart",
+        "price": 56999,
+        "originalPrice": 59900,
+        "delivery": "Delivery by tomorrow",
+        "rating": 4.4
+      },
+      {
+        "platform": "Croma",
+        "price": 58900,
+        "originalPrice": 59900,
+        "delivery": "Store pickup available",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "samsung-watch6",
+    "name": "Samsung Galaxy Watch6 Bluetooth 44mm",
+    "imageUrl": "https://via.placeholder.com/400x300?text=Galaxy+Watch6",
+    "specifications": {
+      "brand": "Samsung",
+      "display": "1.5-inch Super AMOLED",
+      "size": "44mm",
+      "connectivity": "Bluetooth",
+      "health": "Heart rate, SpO2, sleep tracking",
+      "battery": "Up to 40 hours"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 21999,
+        "originalPrice": 32999,
+        "delivery": "Free delivery by tomorrow",
+        "rating": 4.3
+      },
+      {
+        "platform": "Flipkart",
+        "price": 20999,
+        "originalPrice": 32999,
+        "delivery": "Delivery in 2 days",
+        "rating": 4.2
+      },
+      {
+        "platform": "Croma",
+        "price": 22490,
+        "originalPrice": 32999,
+        "delivery": "Store pickup today",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "lg-oled-c3-55",
+    "name": "LG C3 55-inch 4K OLED Smart TV",
+    "imageUrl": "https://via.placeholder.com/400x300?text=LG+C3+OLED",
+    "specifications": {
+      "brand": "LG",
+      "display": "55-inch 4K OLED",
+      "refreshRate": "120Hz",
+      "processor": "Alpha 9 AI Processor Gen6",
+      "audio": "Dolby Atmos",
+      "smartTv": "webOS"
+    },
+    "platforms": [
+      {
+        "platform": "Amazon",
+        "price": 129990,
+        "originalPrice": 189990,
+        "delivery": "Free scheduled delivery",
+        "rating": 4.5
+      },
+      {
+        "platform": "Flipkart",
+        "price": 127999,
+        "originalPrice": 189990,
+        "delivery": "Delivery in 3 days",
+        "rating": 4.4
+      },
+      {
+        "platform": "Croma",
+        "price": 132990,
+        "originalPrice": 189990,
+        "delivery": "Installation included",
+        "rating": 4.6
+      }
+    ]
+  }
+]

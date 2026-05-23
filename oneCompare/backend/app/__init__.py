@@ -1,0 +1,1 @@
+"""oneCompare FastAPI application package."""

@@ -1,0 +1,172 @@
+[
+  {
+    "pickup": "Indiranagar",
+    "drop": "Koramangala",
+    "distanceKm": 7.8,
+    "estimates": [
+      {
+        "provider": "Uber",
+        "cabType": "Go",
+        "fare": 265,
+        "etaMinutes": 5,
+        "travelTimeMinutes": 28,
+        "availability": "Available",
+        "rating": 4.3
+      },
+      {
+        "provider": "Ola",
+        "cabType": "Mini",
+        "fare": 249,
+        "etaMinutes": 7,
+        "travelTimeMinutes": 30,
+        "availability": "Available",
+        "rating": 4.2
+      },
+      {
+        "provider": "Rapido",
+        "cabType": "Cab",
+        "fare": 239,
+        "etaMinutes": 9,
+        "travelTimeMinutes": 32,
+        "availability": "Available",
+        "rating": 4.1
+      }
+    ]
+  },
+  {
+    "pickup": "Whitefield",
+    "drop": "MG Road",
+    "distanceKm": 18.6,
+    "estimates": [
+      {
+        "provider": "Uber",
+        "cabType": "Premier",
+        "fare": 685,
+        "etaMinutes": 8,
+        "travelTimeMinutes": 58,
+        "availability": "Available",
+        "rating": 4.5
+      },
+      {
+        "provider": "Ola",
+        "cabType": "Prime Sedan",
+        "fare": 659,
+        "etaMinutes": 10,
+        "travelTimeMinutes": 62,
+        "availability": "Available",
+        "rating": 4.4
+      },
+      {
+        "provider": "BluSmart",
+        "cabType": "Electric Sedan",
+        "fare": 699,
+        "etaMinutes": 12,
+        "travelTimeMinutes": 60,
+        "availability": "Available",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "pickup": "HSR Layout",
+    "drop": "Kempegowda International Airport",
+    "distanceKm": 45.2,
+    "estimates": [
+      {
+        "provider": "Uber",
+        "cabType": "Airport",
+        "fare": 1499,
+        "etaMinutes": 11,
+        "travelTimeMinutes": 95,
+        "availability": "Available",
+        "rating": 4.4
+      },
+      {
+        "provider": "Ola",
+        "cabType": "Prime SUV",
+        "fare": 1649,
+        "etaMinutes": 9,
+        "travelTimeMinutes": 92,
+        "availability": "Available",
+        "rating": 4.3
+      },
+      {
+        "provider": "BluSmart",
+        "cabType": "Electric Sedan",
+        "fare": 1399,
+        "etaMinutes": 18,
+        "travelTimeMinutes": 98,
+        "availability": "Available",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "pickup": "Electronic City",
+    "drop": "Marathahalli",
+    "distanceKm": 21.4,
+    "estimates": [
+      {
+        "provider": "Uber",
+        "cabType": "Go",
+        "fare": 575,
+        "etaMinutes": 6,
+        "travelTimeMinutes": 64,
+        "availability": "Available",
+        "rating": 4.2
+      },
+      {
+        "provider": "Ola",
+        "cabType": "Mini",
+        "fare": 549,
+        "etaMinutes": 8,
+        "travelTimeMinutes": 66,
+        "availability": "Available",
+        "rating": 4.1
+      },
+      {
+        "provider": "Rapido",
+        "cabType": "Cab",
+        "fare": 525,
+        "etaMinutes": 13,
+        "travelTimeMinutes": 70,
+        "availability": "Limited",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "pickup": "Jayanagar",
+    "drop": "Yeshwanthpur",
+    "distanceKm": 16.1,
+    "estimates": [
+      {
+        "provider": "Uber",
+        "cabType": "Premier",
+        "fare": 530,
+        "etaMinutes": 7,
+        "travelTimeMinutes": 48,
+        "availability": "Available",
+        "rating": 4.5
+      },
+      {
+        "provider": "Ola",
+        "cabType": "Prime Sedan",
+        "fare": 499,
+        "etaMinutes": 9,
+        "travelTimeMinutes": 51,
+        "availability": "Available",
+        "rating": 4.3
+      },
+      {
+        "provider": "Namma Yatri",
+        "cabType": "Non-AC Mini",
+        "fare": 455,
+        "etaMinutes": 12,
+        "travelTimeMinutes": 54,
+        "availability": "Available",
+        "rating": 4.0
+      }
+    ]
+  }
+]

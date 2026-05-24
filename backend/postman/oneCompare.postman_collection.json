@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "oneCompare API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8000" },
+    { "key": "userId", "value": "" },
+    { "key": "productId", "value": "" },
+    { "key": "favoriteId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": { "method": "GET", "url": "{{baseUrl}}/health" }
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/v1/users",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Aarav Sharma\",\"email\":\"aarav@example.com\",\"firebase_uid\":\"firebase-demo-id\",\"preferences\":{\"price_weight\":0.5,\"rating_weight\":0.3,\"speed_weight\":0.2}}"
+        }
+      }
+    },
+    {
+      "name": "Create Product",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/v1/products",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Noise Buds X\",\"brand\":\"Noise\",\"category\":\"electronics\",\"price\":1299,\"rating\":4.3,\"delivery_days\":2,\"platform\":\"Amazon\",\"product_url\":\"https://example.com/noise-buds\",\"specs\":{\"battery\":\"40h\",\"bluetooth\":\"5.3\"}}"
+        }
+      }
+    },
+    {
+      "name": "List Products",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/v1/products?category=electronics&limit=10" }
+    },
+    {
+      "name": "Add Favorite",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/v1/favorites",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"user_id\":\"{{userId}}\",\"item_type\":\"product\",\"item_id\":\"{{productId}}\",\"notes\":\"Looks like a good festival deal\"}"
+        }
+      }
+    },
+    {
+      "name": "Get User Favorites",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/v1/favorites/{{userId}}" }
+    },
+    {
+      "name": "Add Search History",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/v1/history",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"user_id\":\"{{userId}}\",\"query\":\"wireless earbuds under 1500\",\"module\":\"product\",\"filters\":{\"category\":\"electronics\"},\"compared_item_ids\":[\"{{productId}}\"]}"
+        }
+      }
+    },
+    {
+      "name": "AI Best Deal Recommendation",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/v1/recommendations/best-deal",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"module\":\"product\",\"preferences\":{\"price_weight\":0.45,\"rating_weight\":0.35,\"speed_weight\":0.2},\"options\":[{\"id\":\"p1\",\"title\":\"Noise Buds X\",\"platform\":\"Amazon\",\"price\":1299,\"rating\":4.3,\"delivery_time\":2},{\"id\":\"p2\",\"title\":\"Boat Airdopes 141\",\"platform\":\"Flipkart\",\"price\":1199,\"rating\":4.1,\"delivery_time\":4},{\"id\":\"p3\",\"title\":\"Realme Buds T300\",\"platform\":\"Croma\",\"price\":1599,\"rating\":4.6,\"delivery_time\":1}]}"
+        }
+      }
+    }
+  ]
+}
+
